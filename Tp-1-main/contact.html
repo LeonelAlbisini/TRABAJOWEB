@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>TecnoMundo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container__search-bar">
+            <div class="container-logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo" class="logo">
+                    <h1 class="logo-text">TecnoMundo</h1>
+                </a>
+            </div>
+            <button class="boton_barra">boton</button>
+            <input type="text" class="search-bar" placeholder="Buscar...">
+        </div>    
+            <nav class="nav-bar ocultar">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="index-contact nav-text">Inicio</a></li>
+                    <li><a href="computers.html" class="index-computers nav-text">Computadoras</a></li>
+                    <li><a href="phones.html" class="index-computers nav-text">Celular</a></li>
+                    <li><a href="contact.html" class="index-home">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="contact-main">
+        <div class="contact-container">
+            <h3>CONTACTANOS</h3>
+            <form action="" class="contact-form">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Apellido">
+                <input type="email" placeholder="E-mail">
+                <input type="text" placeholder="Asunto">
+                <textarea name="" placeholder="Mensaje"></textarea>
+                <div class="contenedor_captcha">
+                    <div class="contenedor_hijo">
+                        <button id="recargar">recargar</button>
+                        <div class="captcha"></div>
+                    </div>
+                    <input class="ingreso_captcha" type="text"placeholder="ingresar captcha" required>
+                    <div class="resultado"></div>
+                </div>
+                <input type="submit" id="submit-button">
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="./index.html" class="container-logo-footer">
+                <img src="./img/logo.png" alt="logo" class="logo">
+                <h1 class="logo-text">TecnoMundo</h1>
+            </a>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="./img/github-icon.png" alt="github-icon"></a>
+            <a href="#"><img src="./img/linkedin-icon.png" alt="linkedin-icon"></a>
+            <a href="#"><img src="./img/instagram-icon.png" alt="instagram-icon"></a>
+            <a href="#"><img src="./img/whatsapp-icon.png" alt="whatsapp-icon"></a>
+        </div>
+        <div class="contact">
+            <ul>
+                <li><span>Telefono:</span> +54 2281 353558</li>
+                <li><span>E-mail:</span> tecnomundo@soporte.com</li>
+                <li><span>Direccion:</span> San Martin 597, Tandil, Provincia de Buenos Aires</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="javascript.js">
+
+    </script>
+</body>
+</html>
